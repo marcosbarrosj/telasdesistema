@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    background-color:  #E6E6E6;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+    
+    header.container{
+    display: flex;
+    margin-top: 10%;
+    border-radius: 5px 5px 1px 2px;
+    
+    
+    
+    
+    }
+    
+                /* conteine texto */
+    
+    header .container-texto{
+    background-color: #54B5EC;
+    color: white;
+    padding: 40px;
+    border-radius: 5px 0 0 5px;
+    top:20%
+    
+    
+    }
+    
+    header .container-texto h1{
+    margin-top: 30px;
+    font-size: 25pt;
+
+
+    }
+    
+    header .container-texto h2{
+    
+    font-size: 25pt;
+    
+    
+    }
+    header .container-texto p{
+    margin-top: 10px;
+    font-size: 18pt;
+    width: 160px;
+    
+    }
+    
+    
+    header .container-texto button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #54B5EC;
+    border: 1px solid  white;
+    border-radius: 20px;
+    font-size: 14pt;
+    margin-top: 30px;
+    margin-left: 18px;
+    cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    
+    
+                /* conteine login */
+    
+    
+    
+    header .container-login{
+    padding: 80px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    width: auto; 
+    }
+    
+    header .container-login h1{
+    color: #54B5EC;
+    ;
+    }
+    
+    
+    header .container-login input{
+    padding: 6px;
+    width: 20vw;
+    
+    
+    }
+    header .container-login button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #54B5EC;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 700px) {
+    body{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    
+    header.container{
+    flex-direction: column;
+    margin-top: 20px;
+    
+    }
+                /* conteine texto */
+    header .container-texto {
+        border-radius: 5px  5px 0 0;
+    
+    
+    }
+    
+    header .container-texto h2{
+    
+    font-size: 20pt;
+    width: 300px;
+    
+    }
+    
+    header .container-texto p{
+    margin-top: 10px;
+    font-size: 15pt;
+    width: 300px;
+    
+    }
+    
+    header .container-texto button{
+    
+    margin-left: 100px;
+    
+    }
+    
+                /* conteine login */
+    header .container-login {
+        border-radius: 0 0 5px 5px ;
+    
+    }
+    
+    header .container-login h1{
+    margin-top: 5px;
+    font-size: 30pt;
+    }
+    header .container-login input{
+        padding: 6px;
+        width: 25vw;
+        
+        
+        }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
