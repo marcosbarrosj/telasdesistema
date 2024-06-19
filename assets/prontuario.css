@@ -13,16 +13,189 @@ margin: 0;
 padding: 0;
 background-color:  #E6E6E6;
 }
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #54B5EC;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding-top: 60px;
+    transition: left 0.3s;
+}
+.sidebar a {
+    display: block;
+}
+.sidebar-hidden {
+    left: -250px;
+}
+.menu-toggle {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    cursor: pointer;
+}
 
-header nav.container{
-    display: grid;
-    grid-template-columns: 20% auto ;
+/* .sidebar-usuario  */
+
+
+.sidebar-usuario {
     width: 100%;
+    position: relative;
+    padding: 10px;
+   
+}
+
+.sidebar-usuario h1{
+    font-size: 18pt;
+    background-color: #E6E6E6;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.sidebar-usuario i{
+    position: absolute;
+    top: 18px;
+    left: 8%;
+    font-size: 20pt;
+
 
 }
 
-header nav  .content-navbar{
+/* menu-header */
+
+.menu-header{
     width: 100%;
-    height: 100%;
-    background-color: aqua;
+    position: relative;
+    
+
+}
+
+
+.menu-header{
+    width: 100%;
+}
+
+
+.menu-header p{
+color: white;}
+
+
+.menu-header p:hover{
+    background-color: #ade0fe;
+    color: black;
+
+
+}
+    
+    
+
+
+
+.menu-header .chevron{
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 90%;
+
+}
+    
+
+
+
+.menu-header .options {
+    position: absolute;
+    top: 22px;
+    left: 12%;
+    
+   
+}
+   
+
+.menu-header .options a{
+    color: white;
+    text-decoration: none;
+    width: 12vw;
+
+}
+
+.menu-header .options a:hover{
+    background-color: #ade0fe;
+    color: black;
+
+}
+
+/* menu-calendar   */
+
+.menu-calendar{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.menu-calendar a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu-calendar a:hover{
+    background-color: #ade0fe;
+    color: black;
+  
+    
+}
+
+
+/* Sair */
+
+.Sair{
+    width: 100%;
+}
+.Sair a{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+
+    
+}
+
+.Sair a:hover{
+    color: black;
+
+    
+}
+    
+    
+
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        left: -250px;
+    }
+    .sidebar.sidebar-open {
+        left: 0;
+    }
+    .menu-toggle {
+        display: block;
+
+    }
+
+    element.style {
+        margin-left: 0;
+    }
+
+    .container{
+        margin-top: 100px;
+    }
+    
 }
