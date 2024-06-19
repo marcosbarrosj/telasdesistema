@@ -175,6 +175,7 @@ color: white;}
 
 /* Conteúdo principal da página */
 .container{
+    width: 100%;
 }
     
 .container-tabale{
@@ -201,7 +202,16 @@ color: white;}
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1820px) {
+    .container{
+
+margin-left:300px;
+
+    }
+
+}
+
+@media (max-width: 930px) {
     .sidebar {
         left: -250px;
     }
@@ -219,6 +229,11 @@ color: white;}
 
     .container{
         margin-top: 100px;
+        margin-left:20px;
+
+
     }
     
 }
+
+
