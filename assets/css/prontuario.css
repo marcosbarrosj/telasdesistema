@@ -119,9 +119,10 @@ color: white;}
    
 
 .menu-header .options a{
-    color: white;
+    color: black;
     text-decoration: none;
     width: 12vw;
+    background-color: #E6E6E6;
 
 }
 
@@ -135,7 +136,6 @@ color: white;}
 
 .menu-calendar{
     width: 100%;
-    margin-top: 20px;
 
 }
 .menu-calendar a{
@@ -315,7 +315,13 @@ box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     
 }
 
-.container-footebutton button:hover{
+.container-footebutton a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-footebutton a:hover{
     color: black;
 }
 
