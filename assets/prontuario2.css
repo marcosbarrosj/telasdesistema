@@ -180,32 +180,84 @@ color: white;}
     
 .container-tabale{
     width: 100%;
-    background-color: #d9d9d9;
-}    
+    background-color: #EEEEEE;
+    border-radius: 10px;
+
+}   
+
+
+.container-palavra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-Incluir {
+    margin-top: 5px;
+}
+
+.container-Incluir a{
+    padding: 8px;
+    background-color: #54B5EC;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14pt;
+    
+
+}
+
+.container-Incluir a:hover{
+    color: black;
+}
+
+
+.container-Pesquisar{
+    margin-top: 5px;
+    position: relative;
+   
+
+
+}
+
+.container-Pesquisar label{
+    position: absolute;
+    top: 5px;
+    left: 85%;
+    font-size: 16pt;
+}
+
+.container-Pesquisar input{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E8EFF2;
+    font-size: 12pt;
+    box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.4);
+    
+}
+
+.container-Pesquisar i{
+   color: #54B5EC;
+    
+}
 
 .table {
-    
-
-    
-    --bs-table-border-color: var(--bs-border-color);
-    --bs-table-accent-bg: transparent;
-    --bs-table-striped-color: var(--bs-emphasis-color);
-    --bs-table-striped-bg: rgba(var(--bs-emphasis-color-rgb), 0.05);
-    --bs-table-active-color: var(--bs-emphasis-color);
-    --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
-    --bs-table-hover-color: var(--bs-emphasis-color);
-    --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075);
+    --bs-table-bg: #EEEEEE;
     width: 100%;
-    margin-bottom: 2rem;
-    vertical-align: top;
-    border-color: #EEEEEE;
+    margin-bottom: 1px;
+    border: 2px solid #A7A7A7;
+    border-color: #A7A7A7;
+    text-align: center;
+
 }
 
 
 @media (max-width: 1820px) {
     .container{
 
-margin-left:300px;
+margin-left:250px;
 
     }
 
